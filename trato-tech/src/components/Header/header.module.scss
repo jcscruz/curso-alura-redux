@@ -4,13 +4,13 @@
   background-image: url('/assets/fundo.png');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px 120px 100px 120px;
+  padding: 150px 120px 210px 120px;
   position: relative;
   @media(max-width: $tablet) {
     padding-top: 250px;
   }
   @media(max-width: $mobile-sm) {
-    padding: 250px 50px 100px 50px;
+    padding: 25px 50px 100px 50px;
   }
 }
 
@@ -47,7 +47,7 @@
     grid-area: imagem;
     justify-self: center;
     overflow: hidden;
-    max-width: 700px;
+    max-width: 550px;
     img {
       border-radius: 144px;
       width: 100%;
